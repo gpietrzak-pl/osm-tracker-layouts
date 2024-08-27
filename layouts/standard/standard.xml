@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="textnote" icon="text_32x32" />
+			<button type="voicerec" icon="voice_32x32" />
+			<button type="picture" icon="camera_32x32" />
+		</row>
+		<row>
+			<button type="page" label="Spacer" targetlayout="spacer" icon="recycling_icons/waste_basket.png" />
+			<button type="page" label="Rower" targetlayout="rower" icon="recycling_icons/dog_excrement_bag_vending.png" />
+			<button type="page" label="Samochod" targetlayout="samochod" icon="recycling_icons/container.png" />
+		</row>
+		<row>
+			<button type="tag" label="Waste container" icon="recycling_icons/waste_disposal.png" />
+			<button type="tag" label="Recycling center" />
+			<button type="tag" label="Waste transfer station" />
+		</row>
+		<row>
+			<button type="tag" label="Landfill" />
+			<button type="tag" label="Wastewater plant" />
+		</row>
+	</layout>
+
+
+
+	<layout name="spacer">
+		<row>
+			<button type="tag" label="Computers" icon="recycling_icons/computers.png" />
+			<button type="tag" label="Mobile phones" icon="recycling_icons/mobile_phone.png" />
+		</row>
+		<row>
+			<button type="tag" label="Electronics" />
+			<button type="tag" label="Bulbs" icon="recycling_icons/bulb.png" /> 
+			<button type="page" label="Root" targetlayout="root" icon="recycling_icons/bulb.png" />
+		</row>
+	</layout>
+
+</layouts>
